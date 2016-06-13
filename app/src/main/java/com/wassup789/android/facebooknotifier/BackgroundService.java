@@ -147,7 +147,7 @@ public class BackgroundService extends Service {
                                 doesExist = true;
                         }
 
-                        /*if(doesExist)
+                        if(doesExist)
                             continue;
                         else {
                             shownNotifications.add(id);
@@ -155,7 +155,7 @@ public class BackgroundService extends Service {
                                 shownNotifications.remove(0);
 
                             saveStringArray("shownNotifications", shownNotifications);
-                        }*/
+                        }
 
                         //Then get this specific notification's information
                         new Request(session, "/" + id, new Bundle(), HttpMethod.GET, new Request.Callback() {
