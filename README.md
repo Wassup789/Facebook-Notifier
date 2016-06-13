@@ -1,6 +1,6 @@
 # Facebook Notifier #
 
-Synchronize your desktop's music with your phone.
+Recieve notifications from Facebook without the Facebook app.
 
 This code is licensed under the MIT License.
 
@@ -16,7 +16,7 @@ This code is licensed under the MIT License.
 
 This project requires:
 
- - An Android device
+ - An Android device or Android Emulator
  - Android Studio
 
 ## Downloads
