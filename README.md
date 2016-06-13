@@ -16,11 +16,11 @@ This code is licensed under the MIT License.
 
 This project requires:
 
- - An Android device or Android Emulator
  - Android Studio
+ - An Android device or Emulator (Minimum SDK Version: [21](https://developer.android.com/about/versions/android-5.0.html))
 
 ## Downloads
-**Latest Version:** ***[vX.X.X.X][Dld_Latest]***
+**Latest Version:** ***[TBD][Dld_Latest]***
 
 **Release Archive:**
 
