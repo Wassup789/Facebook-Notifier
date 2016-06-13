@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listview_border">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="32dp"
+            android:id="@+id/listViewContent"
+            android:layout_toStartOf="@+id/listViewSwitch"
+            android:paddingRight="26dp">
+
+            <TextView android:id="@+id/listViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:text="List 1"
+                android:layout_row="0"
+                android:layout_column="0" />
+
+            <TextView android:id="@+id/listViewSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:layout_alignStart="@+id/text1"
+                android:text="Sub Item 1"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewSwitch"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|right"
+            android:visibility="visible"
+            android:textSize="0px"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/listViewContent"
+            android:paddingRight="30dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Divider"
+        android:id="@+id/listViewDivider"
+        android:textColor="?attr/colorAccent"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="18dp" />
+
+</FrameLayout>

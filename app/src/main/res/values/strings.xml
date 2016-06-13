@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Facebook Notifier</string>
+
+    <string name="action_about">About</string>
+
+    <string name="facebookLogin_label">Login to Facebook</string>
+    <string name="facebookLogin_label_alt">Logout of Facebook</string>
+    <string name="enableNotifier_label">Enable Facebook Notifier</string>
+    <string name="refreshToggle_label">Edit Refresh Interval</string>
+    <string name="refreshToggle_desc">Edit the Facebook refresh interval (in minutes)</string>
+
+    <string name="dialog_about_title">About</string>
+    <string name="dialog_about_desc">Facebook Notifier by Wassup789</string>
+
+    <string name="dialog_setrefreshinterval">Set Refresh Interval</string>
+    <string name="dialog_setrefreshinterval_content">Enter a number (in minutes):</string>
+    <string name="dialog_setrefreshinterval_default">Default: 5</string>
+
+    <string name="dialog_okay">Okay</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="dialog_done">Done</string>
+    <string name="dialog_save">Save</string>
+
+    <string name="facebook_appId">261707640525224</string>
+</resources>
